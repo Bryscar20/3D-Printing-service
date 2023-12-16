@@ -365,7 +365,7 @@ button{
     width:120px;
    border-color: grey;
 }
-@media(max-width:440px){
+@media(max-width:400px){
    .navbar-1 button{
     display: none;
    }
