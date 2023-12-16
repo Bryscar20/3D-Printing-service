@@ -22,6 +22,7 @@ button{
     padding-top: 30px;
     height:150px;
     width:100%;
+    overflow:hidden;
     padding-bottom: 20px;
     background: linear-gradient(45deg, #cbe8ff,rgb(62, 120, 183),rgb(23, 66, 112), rgb(24, 80, 139));
    background-size: 400% 400%;
@@ -52,7 +53,7 @@ button{
 }
 
 .services{
-    height:500px;
+    height:600px;
     width:100%;
     padding-top: 30px;
     padding-bottom: 20px;
@@ -72,7 +73,8 @@ button{
 }
 .services img{
     height:450px;
-    width:100%;
+    width:80%;
+    overflow:hidden;
     box-shadow: 0 0 10px 5px #0084ff; 
    transition: box-shadow 0.5s ease-in-out;
 }
@@ -97,6 +99,7 @@ button{
   }
 .services p{
     color:black;
+    font-size:20px;
 }
 .cards-1{  
     height:400px;
@@ -140,6 +143,7 @@ button{
     text-align: center;
     padding-bottom: 30px;
     width:80%;
+    overflow:hidden;
     margin-left: 10%;
     border-radius: 10px;
     background-color:white;
@@ -156,7 +160,6 @@ button{
 }
 
 .process img{
-    background-image: 90% 90%;
     height:auto;
     width:100%;
 }
@@ -169,6 +172,7 @@ button{
     padding-bottom: 30px;
     margin-bottom: 90px;
     width:80%;
+    overflow:hidden;
     margin-left: 10%;
     border-radius: 10px;
     background-color:rgb(5,51,102);
@@ -222,8 +226,6 @@ button{
     height:150px;
     width:220px;
     margin-top: 80px;
-    width: 100%;
-    height: auto;
     animation: anim1 5s infinite ;
     transition: transform 0.5s ease-in-out;
     box-shadow: 0px 0px 2px 2px gray;
@@ -254,6 +256,7 @@ button{
     border-width: 0px 0px 0px 0px;
     border-color: #eae9e9;
     border-style: solid;
+    overflow:hidden;
     height:300px;
     width:100%;
     
@@ -286,6 +289,7 @@ button{
     margin-left: 150px;
     width:auto;
     padding:10px;
+    height:auto;
     background-color: white;
     color:#004188;
     font-weight: bold;
@@ -299,6 +303,7 @@ button{
     background-repeat: no-repeat;
     height:500px;
     width:100%;
+    overflow:hidden;
 }
 .form-1 h2{
     color:#0d68cb;
@@ -317,7 +322,7 @@ button{
 }
 .form-1 #msg{
   height:150px;
-  width:150%;
+  width:140%;
   border-radius: 10px;
   padding-top: 10px;
   margin-left: 170px;
@@ -365,7 +370,7 @@ button{
     width:120px;
    border-color: grey;
 }
-@media((min-width: 576px)){
+@media (min-width: 576px){
    .navbar-1 button{
     display: none;
    }
@@ -447,7 +452,7 @@ button{
     margin-left: 170px;
    }
 }
-@media((min-width: 768px)){
+@media (min-width: 768px){
     .navbar-1 button{
         display: none;
     }
