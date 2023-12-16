@@ -184,7 +184,7 @@ button{
      width: 180px;
     height: 180px;
     padding-top: 50px;
-    margin-left: 270px;
+    margin-left: 370px;
     background-color: #3498db;
     border-radius: 50%;
     animation: pulse 2s infinite;
@@ -364,7 +364,7 @@ button{
 }
 .end-1 #btn-1{
     margin-top: 30px;
-    margin-left: -50px;
+    margin-left: -350px;
     padding-left: 10px;
     padding-top: 10px;
     font-weight: bold;
@@ -382,16 +382,19 @@ button{
    .services img{
     height:300px;
     width:300px;
-    margin-left: -10px;
+    margin-left: 90px;
    }
+    .services p{
+        margin-left:90px;
+    }
    .services h1{
-    margin-left: -10px;
+    margin-left: 90px;
     font-weight: 400;
      font-size: 45px;
    }
    .services button{
     margin: 50px;
-    margin-left: 50px;
+    margin-left: 150px;
    }
    .cards-1{
     height: auto;
