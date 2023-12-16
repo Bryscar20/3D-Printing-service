@@ -365,7 +365,7 @@ button{
     width:120px;
    border-color: grey;
 }
-@media(max-width:400px){
+@media((min-width: 576px)){
    .navbar-1 button{
     display: none;
    }
@@ -447,7 +447,7 @@ button{
     margin-left: 170px;
    }
 }
-@media(max-width:950px){
+@media((min-width: 768px)){
     .navbar-1 button{
         display: none;
     }
