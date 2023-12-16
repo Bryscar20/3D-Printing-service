@@ -55,6 +55,7 @@ button{
 .services{
     height:600px;
     width:100%;
+    overflow:hidden;
     padding-top: 30px;
     padding-bottom: 20px;
     background-color: whitesmoke;
@@ -74,7 +75,7 @@ button{
 .services img{
     height:450px;
     width:70%;
-    margin-left:-80px;
+    margin-left:-100px;
     overflow:hidden;
     box-shadow: 0 0 10px 5px #0084ff; 
    transition: box-shadow 0.5s ease-in-out;
@@ -184,7 +185,7 @@ button{
      width: 180px;
     height: 180px;
     padding-top: 50px;
-    margin-left: 230px;
+    margin-left: 270px;
     background-color: #3498db;
     border-radius: 50%;
     animation: pulse 2s infinite;
