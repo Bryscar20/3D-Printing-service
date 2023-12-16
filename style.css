@@ -370,7 +370,7 @@ button{
     display: none;
    }
    .services{
-    height:900px;
+    height:auto;
     width:100%;
    }
    .services img{
@@ -390,11 +390,14 @@ button{
    .cards-1{
     height: auto;
    }
+    .process{
+        height:auto;
+    }
    .process h1{
     font-size: 25px;
    }
    .process img{
-      height:140px;
+      height:180px;
       margin-left: -70px;
       width:370px;
    }
@@ -412,11 +415,11 @@ button{
    }
    .images{
     height: auto;
-
+       
    }
    .images img{
-    height:150px;
-    width:150px;
+    height:120px;
+    width:120px;
    }
    .help{
     height:auto;
@@ -432,7 +435,7 @@ button{
    }
    .form-1 #msg{
     margin-left: 20px;
-    width:450px;
+    width:400px;
    }
    .form-1 #btn{
       margin-left: 170px;
