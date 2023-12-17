@@ -371,13 +371,14 @@ button{
     width:120px;
    border-color: grey;
 }
-@media (min-width: 576px){
+@media only screen and (max-width: 600px){
    .navbar-1 button{
     display: none;
    }
    .services{
     height:auto;
     width:100%;
+    
    }
    .services img{
     height:300px;
@@ -388,17 +389,31 @@ button{
         margin-left:190px;
     }
    .services h1{
-    margin-left: 90px;
+    margin-left: 190px;
     font-weight: 400;
      font-size: 45px;
-        margin-left:190px;
+       
    }
    .services button{
     margin: 50px;
-    margin-left: 210px;
+    margin-left: 190px;
    }
    .cards-1{
     height: auto;
+   }
+   .cards-1 p{
+      font-size: 25px;
+      font-weight: bold;
+      text-align: center;
+      color:antiquewhite;
+   }
+   .cards-1 img{
+    height:130px;
+    width:130px;
+   }
+   .cards-1 h5{
+    font-weight: bold;
+    font-size: 30px;
    }
     .process{
         height:auto;
@@ -416,7 +431,7 @@ button{
     font-size: 10px;
    }
    .ready h2{
-    margin-left: 90px;
+    margin-left: 190px;
    }
    .ready p{
     margin-top: 0px;
@@ -457,7 +472,7 @@ button{
     margin-left: 170px;
    }
 }
-@media (min-width: 768px){
+@media (max-width: 1300px){
     .navbar-1 button{
         display: none;
     }
@@ -469,51 +484,103 @@ button{
     }
     .services button{
         margin-bottom: 20px;
-        margin-left: 190px;
+        margin-left: 270px;
+        padding:10px;
+        height: auto;
+        width:auto;
+        font-size: 25px;
     }
-    .services h3,h1,p{
-        margin-left: 50px;
+    .services h1{
+        margin-left: 170px;
+        font-weight: 700;
+    }
+    .services h3{
+        margin-left: 170px;
     }
     .services p{
-        margin-left: 70px;
+        margin-left: 170px;
+        font-size: 25px;
     }
     .services img{
         width:450px;
         height:300px;
         margin-top: 30px;
-        margin-left: 90px;
+        margin-left: 250px;
     }
     .cards-1{
       height: auto;
     }
+    .cards-1 p{
+        font-size: 35px;
+        font-weight: bold;
+        color: antiquewhite;
+        text-align: center;
+    }
+    .cards-1 img{
+        height: 130px;
+        width:130px;
+    }
+    .cards-1 h5{
+        font-size: 35px;
+    }
+    .process{
+        height: auto;
+    }
     .process h1{
+        font-size: 35px;
+    }
+    .process button{
+        height: auto;
+        width:auto;
+        padding: 10px;
         font-size: 25px;
-       }
+    }
+    .process h2{
+        font-size: 35px;
+        font-weight: bold;
+    }
     .process img{
-        height:200px;
-        margin-left: -50px;
-        width:420px;
+        height:500px;  
+        width:720px;
     }
     .ready h2{
-        margin-left: 80px;
+        margin-left: 210px;
+    }
+    .ready h3{
+        font-weight: bold;
+        font-size: 35px;
     }
     .ready{
         height: auto;
+    }
+    .ready p{
+        font-size: 25px;
     }
 
     .images{
         height: auto;
     
-       }
+    }
+    .images h4{
+        font-size: 35px;
+        font-weight: bold;
+    }
     .images img{
         height:250px;
         width:250px;
     }
     .help{
         height:auto;
-       }
-    .help button{
-        margin-bottom: 20px;
+    }
+    .help h2,.help h4{
+        font-size: 35px;
+        font-weight: bold;
+    }
+    .help button{  
+        height: auto;
+        width:auto;
+        padding: 10px;
+        font-size: 25px;
     }
     .form-1{
     height:auto;
@@ -521,18 +588,48 @@ button{
     .form-1 .inp1{
     margin-left: 20px;
     width: 550px;
+    font-size: 25px;
     }
     .form-1 #msg{
     margin-left: 20px;
     width:550px;
+    font-size: 25px;
+    }
+    .form-1 #check{
+        font-size: 25px;
+        
     }
     .form-1 #btn{
-        margin-left: 300px;
+        margin-left: 400px;
+        height: auto;
+        width:auto;
+        padding: 20px;
+        font-size: 25px;
     }
     .end-1{
     height: auto;
     }
     .end-1 #btn-1{
     margin-left: 300px;
+    }
+    .end-1 input{
+        font-size: 25px;
+    }
+    .end-1 h5{
+        font-size: 35px;
+        font-weight: 700;
+        text-align: center;
+    }
+    .end-1 ul li{
+        font-size: 25px;
+        font-weight: 500;
+        text-align: center;
+    }
+    .end-1 #btn-1{
+        margin-left: 400px;
+        height: auto;
+        width:auto;
+        padding: 20px;
+        font-size: 25px;
     }
 }
