@@ -29,6 +29,18 @@ button{
    animation: gradientAnimation 8s ease infinite;
     background-color: whitesmoke;
 }
+logo {
+    position:absolute;
+    display:block !important;
+    width:110px;
+    left:50%;
+    margin-left:-55px;
+    background:black;
+    -webkit-border-radius:0 0 100% 100%;
+    -moz-border-radius:0 0 100% 100%;
+    border-radius:0 0 100% 100%;
+    padding: 12px;
+}
 @keyframes gradientAnimation {
     0% {
       background-position: 0% 50%;
